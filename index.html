@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Font-Cassini</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta name="description" content="Icon font and SVG of Cassini map symbols for use with GIS and spatial analysis tools." />
+	<meta name="keywords" content="svg,font,icons,geo,map,gis,geospacial" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Viglino/font-cassini/main/svg/globe/uEA82-globe-poi.svg" />
+  
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Viglino/font-cassini/main/font-cassini.png" />
+  <meta name="twitter:site" content="@viglino" />
+  <meta name="twitter:creator" content="@viglino">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Font-Cassini: SVG icons and font of Cassini map symbols" />
+  <meta name="twitter:description" content="SVG icons and font of Cassini map symbols to use with GIS and spatial analysis tools. Feel free to use it in your commercial or open source projects." />
+
+  <link href="css/font-cassini.css?" rel="stylesheet" />
+  <link href="./index.css" rel="stylesheet" />
+  <!--
+    Code highlighting https://tohtml.com/ style Bred3
+  -->
+</head>
+<body>
+  <a href="https://github.com/Viglino/font-cassini" class="icss-github-corner"><i></i></a>
+  <div id="header">
+    <h1>Font-Cassini</h1>
+    <p>SVG icons and font to use with GIS and spatial analysis tools</p>
+    <ul>
+      <li class='fc' onclick="showPage('fc')">
+        Font-Cassini
+      </li><li class='icons' onclick="showPage('icons')">
+        Icons
+      </li><li class='example' onclick="showPage('example')">
+        Examples
+      </li>
+    </ul>
+  </div>
+  <div id="buttons">
+    <a href="https://www.npmjs.com/package/font-cassini"><img src="https://img.shields.io/npm/v/font-cassini.svg" /></a>
+    <a class="github-button" href="https://github.com/viglino/font-cassini" data-icon="octicon-star" data-show-count="true" aria-label="Star viglino/ol-ext on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/viglino/font-cassini/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue viglino/ol-ext on GitHub">Issue</a>
+    <a class="github-button" href="https://github.com/viglino/font-cassini/subscription" data-icon="octicon-eye" data-show-count="true" aria-label="Watch viglino/ol-ext on GitHub">Watch</a>
+    <a class="twitter-share-button" 
+      href="https://twitter.com/intent/tweet" 
+      data-url="https://viglino.github.io/font-cassini/"
+      data-text="#SVG and #font of Cassini map symbols to use with #GIS and #geospatial tools by @jmviglino">
+      Tweet
+    </a>
+  </div>
+
+  <div data-page="fc">
+    <h2>What is Font-Cassini?</h2>
+    <i class="fc fc-paroisse-c fc-5x"></i>
+    <p>
+      Font-Cassini is a set of icons and graphics I've been using in my projects. 
+      <br/>
+      Font-Cassini icons and font theme is designed mainly for GIS applications and web mapping tools.
+      Feel free to use it in your commercial or open source projects, 
+      or really almost whatever you want. Font-Cassini is free, open source, and GPL friendly!
+    </p>
+
+    <h2>How to use it?</h2>
+    <p>
+      You can use Font-Cassini as a font or as SVG symbols or images.
+    </p>
+    <p>
+      To use it in a web page, just add the css in your project.
+    </p>
+<pre style="width: 100%; color:#000000;background:#f1f0f0;"><span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">link</span><span style="color:#074726; "> </span><span style="color:#074726; ">href</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"https://viglino.github.io/font-cassini/css/font-cassini.css"</span><span style="color:#074726; "> </span><span style="color:#074726; ">rel</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"stylesheet"</span><span style="color:#074726; "> </span><span style="color:#a65700; ">/&gt;</span></pre>
+          
+    <p>
+      Then use an inline element with a class prefixed with fc- to add a new icon.
+    </p>
+<pre style="color:#000000;background:#f1f0f0;"><span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-paroisse-c"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#a65700; ">&gt;</span></pre>
+    <i class="fc-paroisse-c fc-2x"></i> 
+
+    <p>
+      Using a &lt;span&gt; is more semantically correct but a little bit verbose:
+    </p>
+<pre style="color:#000000;background:#f1f0f0;"><span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">span</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-champ-bataille"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">span</span><span style="color:#a65700; ">&gt;</span></pre>
+    <span class="fc-champ-bataille fc-2x"></span> 
+
+      
+    <p>
+      Or use it as an svg sprite (svg sprites are inlocated in the <code>./dist/font-cassini.svg</code> file):
+    </p>
+<pre style="color:#000000;background:#f1f0f0;"><span style="color:#a65700; ">&lt;</span><span style="color:#5f5035; ">svg</span> <span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#800000; ">"</span><span style="color:#e60000; ">font-cassini fc-2x</span><span style="color:#800000; ">"</span><span style="color:#a65700; ">&gt;</span>
+  <span style="color:#a65700; ">&lt;</span><span style="color:#5f5035; ">use</span> <span style="color:#007997; ">xlink</span><span style="color:#806030; ">:</span><span style="color:#074726; ">href</span><span style="color:#806030; ">=</span><span style="color:#800000; ">"</span><span style="color:#e60000; ">path/to/dist/font-cassini.svg#fc-polyline-pt</span><span style="color:#800000; ">"</span> <span style="color:#a65700; ">/&gt;</span>
+<span style="color:#a65700; ">&lt;/</span><span style="color:#5f5035; ">svg</span><span style="color:#a65700; ">&gt;</span>
+</pre>
+    <svg class="font-cassini fc-2x">
+      <use xlink:href="./dist/font-cassini.svg#fc-champ-bataille" />
+    </svg>
+
+    <br style="clear: both;" />
+    <h2>NPM package</h2>
+    <p>
+      To use Font-Cassini in your project, 
+      install the <a href="https://github.com/IGNF-Ma-carte/font-cassini.git">font-cassini</a> package:
+      <pre style="width:100%; color:#000000;background:#f1f0f0;"><span style="color:#005fd2; ">npm</span> <span style="color:#e60000; ">install</span> <span style="color:#e60000; ">--save</span> <span style="color:#e60000; ">git+https://github.com/IGNF-Ma-carte/font-ign.git</span></pre>
+    </p>
+    <p>
+      The font is located in the <code>./font</code> directory, 
+      the css and svg sprites are located in the 
+      <code>./css/font-cassini.css</code> and <code>./dist/font-cassini.svg</code> 
+      files of the font-cassini project.
+    </p>
+  </div>
+
+  <div data-page="icons">
+    <div id="icon">
+      <div>
+        <i class="fc-paroisse-c fc-5x"></i>
+        <i class="fc-paroisse-c fc-4x"></i>
+        <i class="fc-paroisse-c fc-3x"></i>
+        <i class="fc-paroisse-c fc-2x"></i>
+        <i class="fc-paroisse-c fc-1x"></i>
+        <button class="color"></button>
+        <select dir="rtl" onclick="save(this.value)">
+          <option value="none">save</option>
+          <option value="svg">SVG</option>
+          <option value="24">PNG 24x24</option>
+          <option value="60">PNG 60x60</option>
+          <option value="100">PNG 100x100</option>
+          <option value="200">PNG 200x200</option>
+          <option value="1000">PNG 1000x1000</option>
+        </select>
+        <br/>
+        <h2>fc-paroisse-c</h2>
+        <p>
+          Unicode: <span class="code"></span>
+          -
+          Theme: <span class="theme" onclick="search($(this).text())"></span>
+          -
+          <span class="tags"></span>
+        </p>
+      </div>
+    </div>
+    <div id="search">
+      <div>
+        <i class="fc-search-map"></i>
+        <input type="search" placeholder="search icon..." />
+        <span class="nb"></span> icons
+        <div class="news" onclick="search('new');">new</div>
+      </div>
+    </div>
+    <div id="content">
+    </div>
+  </div>
+  <div data-page="svg">
+    <div id="content">
+    </div>
+  </div>
+
+  <div data-page="example">
+    <h2>Icon size and color</h2>
+    <p>
+      To increase icon sizes relative to their container, 
+      use the <code>fc-lg</code> (33% increase), 
+      <code>fc-2x</code>, <code>fc-3x</code>, <code>fc-4x</code>, or <code>fc-5x</code> classes.
+      <br/>
+      <i class="fc-road-map"></i>
+      <i class="fc-road-map fc-lg"></i>
+      <i class="fc-road-map fc-2x"></i>
+      <i class="fc-road-map fc-3x"></i>
+      <i class="fc-road-map fc-4x"></i>
+      <i class="fc-road-map fc-5x"></i>
+    </p>
+    <p>
+      Use CSS color to change font color:
+      <br/>
+      <i class="fc-modify-poly-o fc-2x" style="color:#800;"></i>
+      <i class="fc-modify-poly-o fc-2x" style="color:#880;"></i>
+      <i class="fc-modify-poly-o fc-2x" style="color:#080;"></i>
+      <i class="fc-modify-poly-o fc-2x" style="color:#088;"></i>
+      <i class="fc-modify-poly-o fc-2x" style="color:#008;"></i>
+      <i class="fc-modify-poly-o fc-2x" style="color:#808;"></i>
+    </p>
+    <h2>Fixed width icons</h2>
+    <p>
+      Use <code>fc-fw</code> class to set icons at a fixed width. 
+      Especially designed to use in nav lists & list groups to preserve alignment.
+      <ul>
+        <li>
+          <i class="fc-road-map fc-fw fc-2x"></i> Road map
+        </li>
+        <li>
+          <i class="fc-bus-map fc-fw fc-2x"></i> Transport
+        </li>
+        <li>
+          <i class="fc-landcover-map fc-fw fc-2x"></i> Landcover
+        </li>
+        <li>
+          <i class="fc-cadastre-map fc-fw fc-2x"></i> Cadastre map
+        </li>
+      </ul>
+    </p>
+    <h2>Rotated and flipped icons</h2>
+    <p>
+      Use <code>fc-rotate*</code> classes to rotate icons (-20, -10, 10, 20, 45, 90, 135, 180, 225, 270 or 315).
+      <br/> 
+      <i class="fc-pushpin fc-2x"></i> 
+      <i class="fc-pushpin fc-rotate-10 fc-2x"></i> 
+      <i class="fc-pushpin fc-rotate10 fc-2x"></i> 
+      <i class="fc-pushpin fc-rotate-20 fc-2x"></i> 
+      <i class="fc-pushpin fc-rotate20 fc-2x"></i> 
+    </p>
+    <p>
+      Use <code>fc-flipv</code> or <code>fc-fliph</code> classes to flip icons vertically or horizontally.
+      <br/> 
+      <i class="fc-hiker fc-2x"></i> 
+      <i class="fc-hiker fc-fliph fc-2x"></i> 
+    </p>
+    <h2>Stacked icons</h2>
+    <p>
+      To stack multiple icons, use the <code>fc-stack</code> class on the parent.
+<pre style="color:#000000;background:#f1f0f0;"><span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">span</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-stack fc-3x"</span><span style="color:#a65700; ">&gt;</span>
+  <span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-compass"</span><span style="color:#074726; "> </span><span style="color:#074726; ">style</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"</span><span style="color:#bb7977; font-weight:bold; ">color</span><span style="color:#806030; ">:</span><span style="color:#8c0000; ">#</span><span style="color:#c00000; ">666</span><span style="color:#806030; ">;</span><span style="color:#e60000; ">"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#a65700; ">&gt;</span> 
+  <span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-compass-needle fc-rotate45"</span><span style="color:#074726; "> </span><span style="color:#074726; ">style</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"</span><span style="color:#bb7977; font-weight:bold; ">color</span><span style="color:#806030; ">:</span><span style="color:#8c0000; ">#</span><span style="color:#c00000; ">800</span><span style="color:#806030; ">;</span><span style="color:#e60000; ">"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#a65700; ">&gt;</span> 
+<span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">span</span><span style="color:#a65700; ">&gt;</span></pre>
+      <br/>
+      <span class="fc-stack fc-3x">
+        <i class="fc-compass" style="color:#666;"></i> 
+        <i class="fc-compass-needle fc-rotate45" style="color: #800;"></i> 
+      </span>
+    </p>
+
+    <h2>Animations</h2>
+    <p>
+      Use <code>fc-spin</code> or <code>fc-pulse</code> classes to animate icons.
+    </p>
+    <span class="fc-stack fc-3x">
+      <i class="fc-compass" style="color:#666;"></i> 
+      <i class="fc-compass-needle fc-spin" style="color: #800;"></i> 
+    </span>
+    ...spin or pulse...
+    <span class="fc-stack fc-3x">
+      <i class="fc-compass" style="color:#666;"></i> 
+      <i class="fc-compass-needle fc-pulse" style="color: #800;"></i> 
+    </span>
+  </div>
+
+  <div id="footer">
+		<div>
+			<a href="https://github.com/Viglino/font-cassini">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" />
+				<span class="stretch">Fork me on Github</span>
+			</a>
+		</div>
+	</div>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <!-- filesaver-js -->
+  <script type="text/javascript" src="https://cdn.rawgit.com/eligrey/FileSaver.js/aa9f4e0e/FileSaver.min.js"></script>
+  <!-- Color picker -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@r-tek/colr_pickr@2.0.0/build/colr_pickr.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@r-tek/colr_pickr@2.0.0/build/colr_pickr.min.css" />
+
+  <script type="text/javascript" src="./index.js"></script>
+
+  <!-- Social buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</body>

@@ -1,0 +1,222 @@
+/* font-cassini - v.1.0.6 
+ * Icon font set of Cassini map symbols for use with GIS and spatial analysis tools
+ * 2024 (c) Jean-Marc Viglino - Apache-2.0
+ * https://github.com/Viglino/font-cassini
+ */
+@font-face {
+  font-family: "font-cassini";
+  src: url('../fonts/font-cassini.eot?t=1733074749262');
+  src: url('../fonts/font-cassini.eot?#iefix') format('eot'),
+    url('../fonts/font-cassini.woff2?t=1733074749262') format('woff2'),
+    url('../fonts/font-cassini.woff?t=1733074749262') format('woff'),
+    url('../fonts/font-cassini.ttf?t=1733074749262') format('truetype'),
+    url('../fonts/font-cassini.svg#font-cassini') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-cassini {
+  width: 1em;
+  height: 1em;
+}
+
+[class^="fc-"]:before, [class*="fc-"]:before {
+  font-family: "font-cassini";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="fc-"] {
+  display: inline-block;
+}
+.fc-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fc-2x { font-size: 2em; }
+.fc-3x { font-size: 3em; }
+.fc-4x { font-size: 4em; }
+.fc-5x { font-size: 5em; }
+.fc-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.fc-rotate10 {
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+.fc-rotate-10 {
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+.fc-rotate20 {
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+.fc-rotate-20 {
+  -webkit-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+.fc-rotate45 {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.fc-rotate90 {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fc-rotate135 {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.fc-rotate180 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fc-rotate225 {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+.fc-rotate270 {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fc-rotate315 {
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+.fc-fliph {
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fc-flipv {
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.fc-stack {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  vertical-align: middle;
+}
+.fc-stack [class^="fc-"] {
+  position: absolute;
+}
+
+.fc-spin {
+  -webkit-animation: fc-spin 2s infinite linear;
+  animation: fc-spin 2s infinite linear;
+}
+.fc-pulse {
+  -webkit-animation: fc-spin 1s infinite steps(8);
+  animation: fc-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fc-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fc-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.fc-abbaye:before { content: "\ea01"; }
+.fc-abbaye-r:before { content: "\ea02"; }
+.fc-auberge:before { content: "\ea03"; }
+.fc-chapelle:before { content: "\ea04"; }
+.fc-chapelle-r:before { content: "\ea05"; }
+.fc-chateau:before { content: "\ea06"; }
+.fc-chateau-r:before { content: "\ea07"; }
+.fc-commanderie:before { content: "\ea08"; }
+.fc-commanderie-r:before { content: "\ea09"; }
+.fc-ferme:before { content: "\ea0a"; }
+.fc-hameau:before { content: "\ea0b"; }
+.fc-hameau-r:before { content: "\ea0c"; }
+.fc-moulin-eau:before { content: "\ea0d"; }
+.fc-moulin-vent-b:before { content: "\ea0e"; }
+.fc-moulin-vent-pierre:before { content: "\ea0f"; }
+.fc-paroisse:before { content: "\ea10"; }
+.fc-paroisse-p:before { content: "\ea11"; }
+.fc-paroisse-r:before { content: "\ea12"; }
+.fc-paroisse-c:before { content: "\ea13"; }
+.fc-prieure:before { content: "\ea14"; }
+.fc-prieure-r:before { content: "\ea15"; }
+.fc-tour:before { content: "\ea16"; }
+.fc-tour-r:before { content: "\ea17"; }
+.fc-villa:before { content: "\ea18"; }
+.fc-cabane:before { content: "\ea1c"; }
+.fc-tuillerie:before { content: "\ea1d"; }
+.fc-abbaye-s:before { content: "\ea1e"; }
+.fc-cabane-s:before { content: "\ea1f"; }
+.fc-chateau-s:before { content: "\ea21"; }
+.fc-commanderie-s:before { content: "\ea22"; }
+.fc-hameau-s:before { content: "\ea23"; }
+.fc-moulin-vent-bois-s:before { content: "\ea24"; }
+.fc-moulin-vent-pierre-s:before { content: "\ea25"; }
+.fc-paroisse-chateau-s:before { content: "\ea26"; }
+.fc-paroisse-protegee-s:before { content: "\ea27"; }
+.fc-paroisse-s:before { content: "\ea28"; }
+.fc-prieure-s:before { content: "\ea29"; }
+.fc-ville-s:before { content: "\ea2a"; }
+.fc-chapelle-s:before { content: "\ea2b"; }
+.fc-champ-bataille:before { content: "\ea19"; }
+.fc-bataille-gagnee:before { content: "\ea1a"; }
+.fc-bataille-perdue:before { content: "\ea1b"; }
+.fc-corps-garde:before { content: "\ea20"; }
+.fc-gibet:before { content: "\ea2c"; }
+.fc-dune:before { content: "\ea2d"; }
+.fc-flots:before { content: "\ea2e"; }
+.fc-foret:before { content: "\ea2f"; }
+.fc-friche:before { content: "\ea30"; }
+.fc-marais-salant:before { content: "\ea31"; }
+.fc-marais:before { content: "\ea32"; }
+.fc-olivier:before { content: "\ea33"; }
+.fc-pinadas:before { content: "\ea34"; }
+.fc-pres:before { content: "\ea35"; }
+.fc-rocher:before { content: "\ea36"; }
+.fc-sapin:before { content: "\ea37"; }
+.fc-vigne:before { content: "\ea38"; }

@@ -1,0 +1,42 @@
+{
+  "name": "font-cassini",
+  "version": "1.0.6",
+  "description": "Icon font set of Cassini map symbols for use with GIS and spatial analysis tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve.js",
+    "build": "gulp"
+  },
+  "keywords": [
+    "font",
+    "GIS",
+    "maps"
+  ],
+  "author": {
+    "name": "Jean-Marc Viglino",
+    "url": "https://github.com/Viglino"
+  },
+  "homepage": "https://github.com/Viglino/font-cassini",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viglino/font-cassini.git"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "async": "^3.2.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^11.0.0",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-svgmin": "^3.0.0",
+    "gulp-svgstore": "^7.0.1",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "vinyl-paths": "^3.0.1"
+  }
+}
