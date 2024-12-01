@@ -1,10 +1,5 @@
-# <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="40" /> Font-Cassini
+# <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="70" align="left" /> Font-Cassini
 *Icon font set of Cassini map symbols for use with GIS and spatial analysis tools*
-
-[![](https://img.shields.io/npm/v/font-cassini.svg)](https://www.npmjs.com/package/font-cassini)
-![](https://img.shields.io/npm/dt/font-cassini.svg)
-![](https://img.shields.io/npm/dw/font-cassini)
-![](https://img.shields.io/npm/l/font-cassini.svg)
 
 I've collected in this repo icons and graphics I've been using in my projects.
 Font-Cassini icons and font theme is designed mainly for GIS applications and web mapping tools. 
