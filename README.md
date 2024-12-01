@@ -1,4 +1,4 @@
-# <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA10-paroisse-c.svg" height="40" /> Font-Cassini
+# <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA10-paroisse-chateau.svg" height="40" /> Font-Cassini
 *Icon font set of Cassini map symbols for use with GIS and spatial analysis tools*
 
 [![](https://img.shields.io/npm/v/font-cassini.svg)](https://www.npmjs.com/package/font-cassini)
@@ -32,11 +32,11 @@ To use it in a web page, just add the css in your project.
 <link href="https://viglino.github.io/font-cassini/css/font-cassini.css" rel="stylesheet" />
 ```
 Then use an inline element with a class prefixed with `fc-` to add a new icon.    
-<img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA10-paroisse-c.svg" height="30" />
+<img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA10-paroisse-chateau.svg" height="30" />
 <img src="https://github.com/Viglino/font-cassini/blob/main/svg/geom/uEA02-polyline-pt.svg" height="30" />
 ```html
-<!-- prefix: fc - icon name: paroisse-c -->
-<i class="fc-paroisse-c"></i>
+<!-- prefix: fc - icon name: paroisse-chateau -->
+<i class="fc-paroisse-chateau"></i>
 <!-- using a <span> is more semantically correct but a little bit verbose. -->
 <span class="fc-polyline-pt"></span>
 ```

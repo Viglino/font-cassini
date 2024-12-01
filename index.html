@@ -53,7 +53,7 @@
 
   <div data-page="fc">
     <h2>What is Font-Cassini?</h2>
-    <i class="fc fc-paroisse-c fc-5x"></i>
+    <i class="fc fc-paroisse-chateau fc-5x"></i>
     <p>
       Font-Cassini is a set of icons and graphics I've been using in my projects. 
       <br/>
@@ -74,8 +74,8 @@
     <p>
       Then use an inline element with a class prefixed with fc- to add a new icon.
     </p>
-<pre style="color:#000000;background:#f1f0f0;"><span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-paroisse-c"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#a65700; ">&gt;</span></pre>
-    <i class="fc-paroisse-c fc-2x"></i> 
+<pre style="color:#000000;background:#f1f0f0;"><span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-paroisse-chateau"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#a65700; ">&gt;</span></pre>
+    <i class="fc-paroisse-chateau fc-2x"></i> 
 
     <p>
       Using a &lt;span&gt; is more semantically correct but a little bit verbose:
@@ -113,11 +113,11 @@
   <div data-page="icons">
     <div id="icon">
       <div>
-        <i class="fc-paroisse-c fc-5x"></i>
-        <i class="fc-paroisse-c fc-4x"></i>
-        <i class="fc-paroisse-c fc-3x"></i>
-        <i class="fc-paroisse-c fc-2x"></i>
-        <i class="fc-paroisse-c fc-1x"></i>
+        <i class="fc-paroisse-chateau fc-5x"></i>
+        <i class="fc-paroisse-chateau fc-4x"></i>
+        <i class="fc-paroisse-chateau fc-3x"></i>
+        <i class="fc-paroisse-chateau fc-2x"></i>
+        <i class="fc-paroisse-chateau fc-1x"></i>
         <button class="color"></button>
         <select dir="rtl" onclick="save(this.value)">
           <option value="none">save</option>
@@ -129,7 +129,7 @@
           <option value="1000">PNG 1000x1000</option>
         </select>
         <br/>
-        <h2>fc-paroisse-c</h2>
+        <h2>fc-paroisse-chateau</h2>
         <p>
           Unicode: <span class="code"></span>
           -
@@ -162,22 +162,22 @@
       use the <code>fc-lg</code> (33% increase), 
       <code>fc-2x</code>, <code>fc-3x</code>, <code>fc-4x</code>, or <code>fc-5x</code> classes.
       <br/>
-      <i class="fc-road-map"></i>
-      <i class="fc-road-map fc-lg"></i>
-      <i class="fc-road-map fc-2x"></i>
-      <i class="fc-road-map fc-3x"></i>
-      <i class="fc-road-map fc-4x"></i>
-      <i class="fc-road-map fc-5x"></i>
+      <i class="fc-moulin-vent-pierre"></i>
+      <i class="fc-moulin-vent-pierre fc-lg"></i>
+      <i class="fc-moulin-vent-pierre fc-2x"></i>
+      <i class="fc-moulin-vent-pierre fc-3x"></i>
+      <i class="fc-moulin-vent-pierre fc-4x"></i>
+      <i class="fc-moulin-vent-pierre fc-5x"></i>
     </p>
     <p>
       Use CSS color to change font color:
       <br/>
-      <i class="fc-modify-poly-o fc-2x" style="color:#800;"></i>
-      <i class="fc-modify-poly-o fc-2x" style="color:#880;"></i>
-      <i class="fc-modify-poly-o fc-2x" style="color:#080;"></i>
-      <i class="fc-modify-poly-o fc-2x" style="color:#088;"></i>
-      <i class="fc-modify-poly-o fc-2x" style="color:#008;"></i>
-      <i class="fc-modify-poly-o fc-2x" style="color:#808;"></i>
+      <i class="fc-prieure fc-4x" style="color:#800;"></i>
+      <i class="fc-prieure fc-4x" style="color:#880;"></i>
+      <i class="fc-prieure fc-4x" style="color:#080;"></i>
+      <i class="fc-prieure fc-4x" style="color:#088;"></i>
+      <i class="fc-prieure fc-4x" style="color:#008;"></i>
+      <i class="fc-prieure fc-4x" style="color:#808;"></i>
     </p>
     <h2>Fixed width icons</h2>
     <p>
@@ -185,16 +185,16 @@
       Especially designed to use in nav lists & list groups to preserve alignment.
       <ul>
         <li>
-          <i class="fc-road-map fc-fw fc-2x"></i> Road map
+          <i class="fc-paroisse-chateau fc-fw fc-4x"></i> Paroisse et chateau
         </li>
         <li>
-          <i class="fc-bus-map fc-fw fc-2x"></i> Transport
+          <i class="fc-paroisse fc-fw fc-4x"></i> Paroisse
         </li>
         <li>
-          <i class="fc-landcover-map fc-fw fc-2x"></i> Landcover
+          <i class="fc-paroisse-protegee fc-fw fc-4x"></i> Paroisse protégée
         </li>
         <li>
-          <i class="fc-cadastre-map fc-fw fc-2x"></i> Cadastre map
+          <i class="fc-paroisse-r fc-fw fc-4x"></i> Paroisse ruinée
         </li>
       </ul>
     </p>
@@ -202,45 +202,26 @@
     <p>
       Use <code>fc-rotate*</code> classes to rotate icons (-20, -10, 10, 20, 45, 90, 135, 180, 225, 270 or 315).
       <br/> 
-      <i class="fc-pushpin fc-2x"></i> 
-      <i class="fc-pushpin fc-rotate-10 fc-2x"></i> 
-      <i class="fc-pushpin fc-rotate10 fc-2x"></i> 
-      <i class="fc-pushpin fc-rotate-20 fc-2x"></i> 
-      <i class="fc-pushpin fc-rotate20 fc-2x"></i> 
+      <i class="fc-bataille-gagnee fc-2x"></i> 
+      <i class="fc-bataille-gagnee fc-rotate-10 fc-2x"></i> 
+      <i class="fc-bataille-gagnee fc-rotate10 fc-2x"></i> 
+      <i class="fc-bataille-gagnee fc-rotate-20 fc-2x"></i> 
+      <i class="fc-bataille-gagnee fc-rotate20 fc-2x"></i> 
     </p>
     <p>
       Use <code>fc-flipv</code> or <code>fc-fliph</code> classes to flip icons vertically or horizontally.
       <br/> 
-      <i class="fc-hiker fc-2x"></i> 
-      <i class="fc-hiker fc-fliph fc-2x"></i> 
+      <i class="fc-bataille-gagnee fc-2x"></i> 
+      <i class="fc-bataille-gagnee fc-flipv fc-2x"></i> 
+      <i class="fc-bataille-gagnee fc-fliph fc-2x"></i> 
     </p>
-    <h2>Stacked icons</h2>
-    <p>
-      To stack multiple icons, use the <code>fc-stack</code> class on the parent.
-<pre style="color:#000000;background:#f1f0f0;"><span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">span</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-stack fc-3x"</span><span style="color:#a65700; ">&gt;</span>
-  <span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-compass"</span><span style="color:#074726; "> </span><span style="color:#074726; ">style</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"</span><span style="color:#bb7977; font-weight:bold; ">color</span><span style="color:#806030; ">:</span><span style="color:#8c0000; ">#</span><span style="color:#c00000; ">666</span><span style="color:#806030; ">;</span><span style="color:#e60000; ">"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#a65700; ">&gt;</span> 
-  <span style="color:#a65700; ">&lt;</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#074726; "> </span><span style="color:#074726; ">class</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"fc-compass-needle fc-rotate45"</span><span style="color:#074726; "> </span><span style="color:#074726; ">style</span><span style="color:#806030; ">=</span><span style="color:#e60000; ">"</span><span style="color:#bb7977; font-weight:bold; ">color</span><span style="color:#806030; ">:</span><span style="color:#8c0000; ">#</span><span style="color:#c00000; ">800</span><span style="color:#806030; ">;</span><span style="color:#e60000; ">"</span><span style="color:#a65700; ">&gt;</span><span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">i</span><span style="color:#a65700; ">&gt;</span> 
-<span style="color:#a65700; ">&lt;/</span><span style="color:#400000; font-weight:bold; ">span</span><span style="color:#a65700; ">&gt;</span></pre>
-      <br/>
-      <span class="fc-stack fc-3x">
-        <i class="fc-compass" style="color:#666;"></i> 
-        <i class="fc-compass-needle fc-rotate45" style="color: #800;"></i> 
-      </span>
-    </p>
-
     <h2>Animations</h2>
     <p>
       Use <code>fc-spin</code> or <code>fc-pulse</code> classes to animate icons.
     </p>
-    <span class="fc-stack fc-3x">
-      <i class="fc-compass" style="color:#666;"></i> 
-      <i class="fc-compass-needle fc-spin" style="color: #800;"></i> 
-    </span>
+    <i class="fc-bataille-gagnee fc-spin fc-3x" style="color: #800;"></i> 
     ...spin or pulse...
-    <span class="fc-stack fc-3x">
-      <i class="fc-compass" style="color:#666;"></i> 
-      <i class="fc-compass-needle fc-pulse" style="color: #800;"></i> 
-    </span>
+    <i class="fc-bataille-gagnee fc-pulse fc-3x" style="color: #800;"></i> 
   </div>
 
   <div id="footer">
