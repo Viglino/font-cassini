@@ -1,4 +1,4 @@
-# <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA10-paroisse-chateau.svg" height="40" /> Font-Cassini
+# <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="40" /> Font-Cassini
 *Icon font set of Cassini map symbols for use with GIS and spatial analysis tools*
 
 [![](https://img.shields.io/npm/v/font-cassini.svg)](https://www.npmjs.com/package/font-cassini)
@@ -10,9 +10,9 @@ I've collected in this repo icons and graphics I've been using in my projects.
 Font-Cassini icons and font theme is designed mainly for GIS applications and web mapping tools. 
 They can be easily included in a project using the font or svg images.
 
-[See demo page and examples <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-fc-paroisse-chateau.svg" height="25" />](https://viglino.github.io/font-cassini/)
+[See demo page and examples <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="40" />](https://viglino.github.io/font-cassini/)
 
-## <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="35" align="left" />Getting started
+## <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="60" align="left"/>Getting started
 
 ###  NPM package
 
@@ -32,8 +32,8 @@ To use it in a web page, just add the css in your project.
 <link href="https://viglino.github.io/font-cassini/css/font-cassini.css" rel="stylesheet" />
 ```
 Then use an inline element with a class prefixed with `fc-` to add a new icon.    
-<img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="30" />
-<img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA08-commanderie.svg" height="30" />
+<img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="50" />
+<img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA08-commanderie.svg" height="50" />
 ```html
 <!-- prefix: fc - icon name: paroisse-chateau -->
 <i class="fc-paroisse-chateau"></i>
@@ -41,12 +41,12 @@ Then use an inline element with a class prefixed with `fc-` to add a new icon.
 <span class="fc-commanderie"></span>
 ```
 Or use it as an svg sprite (svg sprites are inlocated in the `./dist/font-cassini.svg` file):    
-<img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="30" />
+<img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="50" />
 ```html
 <svg class="font-cassini fc-3x"><use xlink:href="path/to/dist/font-cassini.svg#fc-paroisse-chateau" /></svg>
 ```
 
-## <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="35" align="left" />Contributing
+## <img src="https://github.com/Viglino/font-cassini/blob/main/svg/bati/uEA13-paroisse-chateau.svg" height="60" align="left" />Contributing
 Please use the [GitHub issue tracker](https://github.com/Viglino/font-cassini/issues) to ask for new features 
 or create a pull request.    
 Font is created from the files in the `./svg` folder, you only have to create a new file in this folder. 
@@ -66,7 +66,7 @@ npm start
 ```
 
 
-## <img src="https://github.com/Viglino/font-cassini/blob/main/svg/militaire/uEA19-champ-bataille.svg" height="35" align="left" />Licenses
+## <img src="https://github.com/Viglino/font-cassini/blob/main/svg/militaire/uEA19-champ-bataille.svg" height="60" align="left" />Licenses
 
 **Font-Cassini is licensed under [Apache-2.0](https://github.com/Viglino/font-cassini/blob/main/LICENSE-APACHE.md)**    
 Copyright (c) 2024 Jean-Marc Viglino
