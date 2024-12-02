@@ -155,7 +155,10 @@ $.ajax({
       bati: [],
     };
     var g;
+    // Check new date (7 days)
     var newDate = new Date((new Date()).getTime() - 7*24*60*60*1000);
+    // remove date
+    newDate = new Date();
     for (g in font.glyphs) {
       if (font.glyphs[g].version > version) version = font.glyphs[g].version;
       if (!themes[font.glyphs[g].theme]) themes[font.glyphs[g].theme] = [];
