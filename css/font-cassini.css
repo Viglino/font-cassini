@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "font-cassini";
-  src: url('../fonts/font-cassini.eot?t=1733075240026');
+  src: url('../fonts/font-cassini.eot?t=1733146812109');
   src: url('../fonts/font-cassini.eot?#iefix') format('eot'),
-    url('../fonts/font-cassini.woff2?t=1733075240026') format('woff2'),
-    url('../fonts/font-cassini.woff?t=1733075240026') format('woff'),
-    url('../fonts/font-cassini.ttf?t=1733075240026') format('truetype'),
+    url('../fonts/font-cassini.woff2?t=1733146812109') format('woff2'),
+    url('../fonts/font-cassini.woff?t=1733146812109') format('woff'),
+    url('../fonts/font-cassini.ttf?t=1733146812109') format('truetype'),
     url('../fonts/font-cassini.svg#font-cassini') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -190,6 +190,19 @@
 .fc-villa:before { content: "\ea18"; }
 .fc-cabane:before { content: "\ea1c"; }
 .fc-tuillerie:before { content: "\ea1d"; }
+.fc-abbaye-s:before { content: "\ea1e"; }
+.fc-cabane-s:before { content: "\ea1f"; }
+.fc-chateau-s:before { content: "\ea21"; }
+.fc-commanderie-s:before { content: "\ea22"; }
+.fc-hameau-s:before { content: "\ea23"; }
+.fc-moulin-vent-bois-s:before { content: "\ea24"; }
+.fc-moulin-vent-pierre-s:before { content: "\ea25"; }
+.fc-paroisse-chateau-s:before { content: "\ea26"; }
+.fc-paroisse-protegee-s:before { content: "\ea27"; }
+.fc-paroisse-s:before { content: "\ea28"; }
+.fc-prieure-s:before { content: "\ea29"; }
+.fc-ville-s:before { content: "\ea2a"; }
+.fc-chapelle-s:before { content: "\ea2b"; }
 .fc-champ-bataille:before { content: "\ea19"; }
 .fc-bataille-gagnee:before { content: "\ea1a"; }
 .fc-bataille-perdue:before { content: "\ea1b"; }
@@ -206,17 +219,4 @@
 .fc-pres:before { content: "\ea35"; }
 .fc-rocher:before { content: "\ea36"; }
 .fc-sapin:before { content: "\ea37"; }
-.fc-vigne:before { content: "\ea38"; }
-.fc-abbaye-s:before { content: "\ea1e"; }
-.fc-cabane-s:before { content: "\ea1f"; }
-.fc-chateau-s:before { content: "\ea21"; }
-.fc-commanderie-s:before { content: "\ea22"; }
-.fc-hameau-s:before { content: "\ea23"; }
-.fc-moulin-vent-bois-s:before { content: "\ea24"; }
-.fc-moulin-vent-pierre-s:before { content: "\ea25"; }
-.fc-paroisse-chateau-s:before { content: "\ea26"; }
-.fc-paroisse-protegee-s:before { content: "\ea27"; }
-.fc-paroisse-s:before { content: "\ea28"; }
-.fc-prieure-s:before { content: "\ea29"; }
-.fc-ville-s:before { content: "\ea2a"; }
-.fc-chapelle-s:before { content: "\ea2b"; }
+.fc-vigne:before { content: "\ea38"; }
