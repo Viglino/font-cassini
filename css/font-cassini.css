@@ -1,15 +1,15 @@
 /* font-cassini - v.1.0.6 
  * Icon font set of Cassini map symbols for use with GIS and spatial analysis tools
- * 2024 (c) Jean-Marc Viglino - Apache-2.0
+ * 2025 (c) Jean-Marc Viglino - Apache-2.0
  * https://github.com/Viglino/font-cassini
  */
 @font-face {
   font-family: "font-cassini";
-  src: url('../fonts/font-cassini.eot?t=1733236792656');
+  src: url('../fonts/font-cassini.eot?t=1742221348482');
   src: url('../fonts/font-cassini.eot?#iefix') format('eot'),
-    url('../fonts/font-cassini.woff2?t=1733236792656') format('woff2'),
-    url('../fonts/font-cassini.woff?t=1733236792656') format('woff'),
-    url('../fonts/font-cassini.ttf?t=1733236792656') format('truetype'),
+    url('../fonts/font-cassini.woff2?t=1742221348482') format('woff2'),
+    url('../fonts/font-cassini.woff?t=1742221348482') format('woff'),
+    url('../fonts/font-cassini.ttf?t=1742221348482') format('truetype'),
     url('../fonts/font-cassini.svg#font-cassini') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -167,6 +167,7 @@
 .fc-gibet:before { content: "\ea2c"; }
 .fc-calvaire:before { content: "\ea39"; }
 .fc-gibet-s:before { content: "\ea3a"; }
+.fc-entree-mine:before { content: "\ea3d"; }
 .fc-abbaye:before { content: "\ea01"; }
 .fc-abbaye-r:before { content: "\ea02"; }
 .fc-auberge:before { content: "\ea03"; }
@@ -208,6 +209,10 @@
 .fc-prieure-s:before { content: "\ea29"; }
 .fc-ville-s:before { content: "\ea2a"; }
 .fc-chapelle-s:before { content: "\ea2b"; }
+.fc-champ-bataille:before { content: "\ea19"; }
+.fc-bataille-gagnee:before { content: "\ea1a"; }
+.fc-bataille-perdue:before { content: "\ea1b"; }
+.fc-corps-garde:before { content: "\ea20"; }
 .fc-dune:before { content: "\ea2d"; }
 .fc-flots:before { content: "\ea2e"; }
 .fc-foret:before { content: "\ea2f"; }
@@ -219,8 +224,4 @@
 .fc-pres:before { content: "\ea35"; }
 .fc-rocher:before { content: "\ea36"; }
 .fc-sapin:before { content: "\ea37"; }
-.fc-vigne:before { content: "\ea38"; }
-.fc-champ-bataille:before { content: "\ea19"; }
-.fc-bataille-gagnee:before { content: "\ea1a"; }
-.fc-bataille-perdue:before { content: "\ea1b"; }
-.fc-corps-garde:before { content: "\ea20"; }
+.fc-vigne:before { content: "\ea38"; }

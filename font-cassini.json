@@ -10,6 +10,7 @@
     "fc-gibet": { "name": "gibet", "code": 59948, "theme": "autre", "search": "", "order": 29165827, "version": 100006, "date": "2024-12-01" },
     "fc-calvaire": { "name": "calvaire", "code": 59961, "theme": "autre", "search": "", "order": 29165146, "version": 100006, "date": "2024-12-03" },
     "fc-gibet-s": { "name": "gibet-s", "code": 59962, "theme": "autre", "search": "", "order": 29165827, "version": 100006, "date": "2024-12-03" },
+    "fc-entree-mine": { "name": "entree-mine", "code": 59965, "theme": "autre", "search": "", "order": 38154025, "version": 100006, "date": "2025-03-17" },
     "fc-abbaye": { "name": "abbaye", "code": 59905, "theme": "bati", "search": "", "order": 123529869, "version": 100006, "date": "2024-11-30" },
     "fc-abbaye-r": { "name": "abbaye-r", "code": 59906, "theme": "bati", "search": "", "order": 123529869, "version": 100006, "date": "2024-11-30" },
     "fc-auberge": { "name": "auberge", "code": 59907, "theme": "bati", "search": "", "order": 123529869, "version": 100006, "date": "2024-11-30" },
@@ -51,6 +52,10 @@
     "fc-prieure-s": { "name": "prieure-s", "code": 59945, "theme": "icon", "search": "", "order": 123594268, "version": 100006, "date": "2024-12-01" },
     "fc-ville-s": { "name": "ville-s", "code": 59946, "theme": "icon", "search": "", "order": 123594268, "version": 100006, "date": "2024-12-01" },
     "fc-chapelle-s": { "name": "chapelle-s", "code": 59947, "theme": "icon", "search": "", "order": 123594268, "version": 100006, "date": "2024-12-01" },
+    "fc-champ-bataille": { "name": "champ-bataille", "code": 59929, "theme": "militaire", "search": "", "order": 123530479, "version": 100006, "date": "2024-11-30" },
+    "fc-bataille-gagnee": { "name": "bataille-gagnee", "code": 59930, "theme": "militaire", "search": "", "order": 123530479, "version": 100006, "date": "2024-11-30" },
+    "fc-bataille-perdue": { "name": "bataille-perdue", "code": 59931, "theme": "militaire", "search": "", "order": 123530479, "version": 100006, "date": "2024-11-30" },
+    "fc-corps-garde": { "name": "corps-garde", "code": 59936, "theme": "militaire", "search": "", "order": 123594788, "version": 100006, "date": "2024-12-01" },
     "fc-dune": { "name": "dune", "code": 59949, "theme": "vegetation", "search": "", "order": 123614121, "version": 100006, "date": "2024-12-01" },
     "fc-flots": { "name": "flots", "code": 59950, "theme": "vegetation", "search": "", "order": 123614121, "version": 100006, "date": "2024-12-01" },
     "fc-foret": { "name": "foret", "code": 59951, "theme": "vegetation", "search": "", "order": 123614121, "version": 100006, "date": "2024-12-01" },
@@ -62,10 +67,6 @@
     "fc-pres": { "name": "pres", "code": 59957, "theme": "vegetation", "search": "", "order": 123614121, "version": 100006, "date": "2024-12-01" },
     "fc-rocher": { "name": "rocher", "code": 59958, "theme": "vegetation", "search": "", "order": 123614121, "version": 100006, "date": "2024-12-01" },
     "fc-sapin": { "name": "sapin", "code": 59959, "theme": "vegetation", "search": "", "order": 123614121, "version": 100006, "date": "2024-12-01" },
-    "fc-vigne": { "name": "vigne", "code": 59960, "theme": "vegetation", "search": "", "order": 123614121, "version": 100006, "date": "2024-12-01" },
-    "fc-champ-bataille": { "name": "champ-bataille", "code": 59929, "theme": "militaire", "search": "", "order": 123530479, "version": 100006, "date": "2024-11-30" },
-    "fc-bataille-gagnee": { "name": "bataille-gagnee", "code": 59930, "theme": "militaire", "search": "", "order": 123530479, "version": 100006, "date": "2024-11-30" },
-    "fc-bataille-perdue": { "name": "bataille-perdue", "code": 59931, "theme": "militaire", "search": "", "order": 123530479, "version": 100006, "date": "2024-11-30" },
-    "fc-corps-garde": { "name": "corps-garde", "code": 59936, "theme": "militaire", "search": "", "order": 123594788, "version": 100006, "date": "2024-12-01" }
+    "fc-vigne": { "name": "vigne", "code": 59960, "theme": "vegetation", "search": "", "order": 123614121, "version": 100006, "date": "2024-12-01" }
   }
 }
